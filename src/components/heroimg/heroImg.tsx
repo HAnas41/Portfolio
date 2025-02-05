@@ -1,9 +1,15 @@
-import Hero from "../hero/hero"
+import Image from "next/image";
 
-let HeroImg =() => {
+const HeroImg =() => {
     return(
         <>
-         <img src='/images/a73998a914514734c7680df0f683d4d8.fa3bf2d1c730af1abef0.jpg' alt="developer" />
+        <Image 
+  src="/images/Mypic.jpeg" 
+  alt="Profile Picture" 
+  width={150} 
+  height={150} 
+  className="rounded-lg shadow-lg" 
+/>
         </>
     )
 

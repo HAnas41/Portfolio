@@ -1,8 +1,7 @@
 import React from 'react'
 import Logo from '../logo/logo';
 import {Poppins} from "@next/font/google";
-import Projects from '../project/project';
-import AboutMe from '../About/About';
+
 import Navlist from '../navlist/navList';
 const poppins = Poppins({
   weight: '400', 

@@ -1,10 +1,19 @@
+import Image from "next/image";
+
 export default function AboutMe() {
     return (
       <section className="flex flex-row items-center gap-2 p-12">
         {/* Image with background effect */}
         <div className="relative w-64 h-64 md:w-80 md:h-80 ml-16"> {/* Added ml-4 for a slight left margin */}
           <div className="absolute inset-0 rounded-full blur-2xl opacity-50"></div>
-          <img src="./images/Mypic.jpeg" alt="Profile Picture" className="rounded-lg shadow-lg" />
+          <Image 
+  src="/images/Mypic.jpeg" 
+  alt="Profile Picture" 
+  width={400} 
+  height={400} 
+  className="rounded-lg shadow-lg" 
+/>
+          
         </div>
   
         {/* About Me Text */}
