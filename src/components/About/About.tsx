@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function AboutMe() {
+export default function About() {
     return (
       <section className="flex flex-row items-center gap-2 p-12">
         {/* Image with background effect */}
